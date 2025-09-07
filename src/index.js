@@ -56,7 +56,7 @@ app.use(express.static("./public"));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "food-ordering-docs.html"));
+  res.sendFile(path.join(__dirname, "public", "wallet-api-docs2.html"));
 });
 
 app.get('/api/v1' , (req,res)=>{
