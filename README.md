@@ -20,7 +20,8 @@ A secure Node.js wallet funding system powered by Stripe. Users can fund their w
 
 - **Backend:** Node.js, Express  
 - **Database:** MongoDB (Mongoose)  
-- **Payments:** paystack  
+
+- **Payments:** Paystack  
 - **Auth:** JWT  
 - **Others:** dotenv, http-status-codes  
 
