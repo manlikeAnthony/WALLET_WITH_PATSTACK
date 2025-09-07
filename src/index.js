@@ -3,7 +3,7 @@ require('express-async-errors');
 
 const express = require('express');
 const app = express();
-
+const path = require('path')
 //packages
 const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
