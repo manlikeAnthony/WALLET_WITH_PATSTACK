@@ -81,4 +81,3 @@ const start = async ()=>{
 }
 
 start()
-console.log("JWT_SECRET from Render:", process.env.JWT_SECRET);
