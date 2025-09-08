@@ -121,6 +121,7 @@ const login = async (req, res) => {
   const ip = req.ip;
   const userToken = { refreshToken, userAgent, ip, user: user._id };
   await Token.create(userToken);
+console.log("JWT_SECRET length:", process.env.JWT_SECRET?.length);
 
   attachCookiesToResponse({ res, user: tokenUser, refreshToken });
   res.status(StatusCodes.OK).json({ user: tokenUser });
